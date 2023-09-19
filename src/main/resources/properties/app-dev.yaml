@@ -14,7 +14,8 @@ https:
 # Embedded Dashboard config
 embedded.dashboard:
   path: "/*"
-  enabled: "false"
+  #enabled: "false"
+  enabled: "true"
 
 poller:
   enabled: "false"
