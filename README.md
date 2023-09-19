@@ -1,3 +1,17 @@
+# Salesforce Customer SAPI
+![Powered by](https://img.shields.io/badge/Powered%20by-Mulesoft-535597.svg)
+  ![Unit test](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-ut.svg)
+  ![Code coverage](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-cc.svg)
+  ![Build](https://github.com/jpontdia/micorp-customer-sapi/actions/workflows/build.yml/badge.svg)
+  ![Build job](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-wf.svg)
+  ![Release](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-re.svg)
+  ![dev version](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-dev.svg)
+  ![dev test](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-dev-test.svg)
+<br>
+
+The metrics toolkit (formerly metrics accelerator/framework) is a Mule application intended to collect, aggregate and load platform metrics into different visualization systems; providing out of the box integrations and visualization options, including useful dashboards and charts.
+
+
 Table of Contents
 =================
 
@@ -46,7 +60,7 @@ The **metrics toolkit** (**formerly the metrics accelerator/framework**) is a Mu
 	- **Platform Benefits**: require manual input to calculate final metrics, crossing information from the "Platform Operational" domain
 	- **External SDLC Metrics**: collected and calculated automatically based on multiple external applications: Jira, Confluence, Jenkins, Bitbucket and Splunk;
 
-![Domains](/img/domains.png)
+![Domains](docs/domains.png)
 
 ### Modes
 - Poller (Push mode)
@@ -571,10 +585,10 @@ How to link business needs, measurements and data sources?
 ### Approach
 
 #### Conceptual
-![High Level Approach](/img/approach.png)
+![High Level Approach](docs/approach.png)
 
 #### Detailed
-![Implementation Approach](/img/implementation_approach.png)
+![Implementation Approach](docs/implementation_approach.png)
 
 ## Final Notes
 Enjoy and provide feedback / contribute :)
