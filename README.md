@@ -7,7 +7,7 @@
   ![dev test](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-dev-test.svg)
 <br>
 
-The metrics toolkit (formerly metrics accelerator/framework) is a Mule application intended to collect, aggregate and load platform metrics into different visualization systems; providing out of the box integrations and visualization options, including useful dashboards and charts.
+The metrics toolkit is a Mule application intended to collect, aggregate and load platform metrics into different visualization systems; providing out of the box integrations and visualization options, including useful dashboards and charts.
 
 
 Table of Contents

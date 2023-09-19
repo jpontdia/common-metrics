@@ -11,11 +11,11 @@
 
 	<groupId>078efef1-d139-48ed-92f5-f8d4a0592374</groupId>
 	<artifactId>common-metrics-asset</artifactId>
-	<version>1.9.1</version>
+	<version>1.9.2</version>
 	<packaging>mule-application</packaging>
 
 	<name>common-metrics</name>
-	<description>The metrics toolkit (formerly metrics accelerator/framework) is a Mule application intended to collect, aggregate and load platform metrics into different visualization systems; providing out of the box integrations and visualization options, including useful dashboards and charts.</description>
+	<description>The metrics toolkit is a Mule application intended to collect, aggregate and load platform metrics into different visualization systems; providing out of the box integrations and visualization options, including useful dashboards and charts.</description>
 
 	<properties>
 		<!-- Exchange documentation. Details on https://docs.mulesoft.com/exchange/to-publish-assets-maven#publish-an-asset-with-mutable-data -->
@@ -23,45 +23,7 @@
 		<categories key="Backend">Anypoint</categories>
 		<fields key="sourceCode">https://github.com/jpontdia/common-metrics</fields>
 		<tags>Anypoint, Metrics, Anypoint Exchage, System</tags>
-
-		<!-- Code coverage parameters -->
-		<codecoverage.flow>0</codecoverage.flow>
 	</properties>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.mulesoft.munit.tools</groupId>
-				<artifactId>munit-maven-plugin</artifactId>
-				<configuration>
-					<coverage>
-						<ignoreFlows>
-							<!-- Ignoring the entry points, main listener, console, 
-							embedded dashboard listener -->
-							<ignoreFlow>api-main</ignoreFlow>
-							<ignoreFlow>api-console</ignoreFlow>
-							<ignoreFlow>web-main</ignoreFlow>
-							<!-- Ignoring the following 2 flows since they were never implemented properly, 
-	  						they are not currently used but keeping them for future enhancements -->
-							<ignoreFlow>loader-sdlc-flow</ignoreFlow>
-							<ignoreFlow>loader-sdlc-splunk-hec-main-flow</ignoreFlow>
-
-							<!-- Ignoring the following 2 flows since they are not used by ARM aggregations (ARM v2 is used instead), 
-	  						keeping for reference but both will be removed in the future -->
-							<ignoreFlow>api-call-arm-apps-flow</ignoreFlow>
-							<ignoreFlow>collector-arm-apps-metrics-parallel-flow</ignoreFlow>
-							<!-- Ignoring roles groups since it is not used by default - keeping it for future improvements -->
-							<ignoreFlow>collector-rolegroups-metrics</ignoreFlow>
-							<ignoreFlow>api-call-coreservices-rolegroups</ignoreFlow>
-							<!-- Ignoring the following flows since they are not used - keeping them as references -->
-							<ignoreFlow>api-call-coreservices-login-cache-flow</ignoreFlow>
-							<ignoreFlow>api-call-analytics-events-flow</ignoreFlow>
-						</ignoreFlows>
-					</coverage>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 	<dependencies>
 
