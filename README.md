@@ -1,4 +1,4 @@
-# Salesforce Customer SAPI
+# common-metrics
 ![Powered by](https://img.shields.io/badge/Powered%20by-Mulesoft-535597.svg)
   ![Unit test](https://gist.githubusercontent.com/jpontdia/2f22ca2ddf1ba473d6e2cff61cc2fba9/raw/common-metrics-ut.svg)
   ![Build](https://github.com/jpontdia/common-metrics/actions/workflows/build.yml/badge.svg)
