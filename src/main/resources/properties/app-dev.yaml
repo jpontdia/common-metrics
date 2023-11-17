@@ -1,3 +1,17 @@
+# Custom properties to deploy in customer environment
+
+# Logging - logz.io
+logzio:
+  token: "MyToken"
+  url: "MyUrl"
+
+# Default environment for logging platform
+env: local
+
+############################
+# Original properties  
+############################
+
 # API config
 api:
   host: "0.0.0.0"
