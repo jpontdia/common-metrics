@@ -154,3 +154,5 @@ target/
 # Development standards    #
 # ------------------------ #
 exchange-docs/
+
+.tooling-project
